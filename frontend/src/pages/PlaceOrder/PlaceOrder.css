@@ -1,0 +1,128 @@
+/* .place-order{
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    gap: 50px;
+    margin-top: 100px;
+}
+
+.place-order-left{
+    width: 100px;
+    max-width: max(30%,500px);
+}
+
+.place-order-left .title{
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 50px;
+}
+
+.place-order-left input {
+    margin-bottom: 15px !important;
+    width: 100% !important;
+    padding: 10px !important;
+    border: 1px solid #c5c5c5 !important;
+    border-radius: 4px !important;
+    outline-color: tomato !important;
+} */
+
+
+
+/* PlaceOrder.css */
+
+.place-order {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    max-width: 1000px;
+    margin: 40px auto;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  
+  .place-order-left {
+    flex: 2;
+    min-width: 280px;
+  }
+  
+  .place-order-left .title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .place-order-left input {
+    margin-bottom: 15px;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #c5c5c5;
+    border-radius: 4px;
+    outline-color: tomato;
+    font-size: 14px;
+    box-sizing: border-box;
+  }
+  
+  /* Style when input is focused */
+  .place-order-left input:focus {
+    border-color: tomato;
+  }
+  
+  /* multi-fields: place inputs side by side with spacing */
+  .multi-fields {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .multi-fields input {
+    flex: 1;
+  }
+  
+  .place-order-right {
+    flex: 1;
+    min-width: 250px;
+    background: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+  }
+  
+  .cart-total {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .cart-total h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .cart-total-details {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+  }
+  
+  .cart-total hr {
+    border: none;
+    border-top: 1px solid #ddd;
+    margin: 8px 0;
+  }
+  
+  .cart-total button {
+    margin-top: 10px;
+    padding: 10px;
+    background: tomato;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .cart-total button:hover {
+    background: #e04c2b;
+  }
+  
+
+
